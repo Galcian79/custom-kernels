@@ -1,3 +1,5 @@
+842_compress
+842_decompress
 act_csum
 aesni_intel
 af_alg
@@ -37,6 +39,7 @@ dm_mod
 drm_buddy
 drm_display_helper
 drm_exec
+drm_panel_backlight_quirks
 drm_suballoc_helper
 drm_ttm_helper
 ee1004
@@ -76,6 +79,8 @@ libcrc32c
 libphy
 llc
 loop
+lz4_compress
+lz4hc_compress
 mac80211
 mac_hid
 mbcache
@@ -102,6 +107,7 @@ ntfs3
 nvme
 nvme_auth
 nvme_core
+nvme_keyring
 pcspkr
 platform_profile
 polyval_clmulni
