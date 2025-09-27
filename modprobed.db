@@ -39,7 +39,6 @@ dm_mod
 drm_buddy
 drm_display_helper
 drm_exec
-drm_panel_backlight_quirks
 drm_suballoc_helper
 drm_ttm_helper
 ee1004
@@ -107,7 +106,6 @@ ntfs3
 nvme
 nvme_auth
 nvme_core
-nvme_keyring
 pcspkr
 platform_profile
 polyval_clmulni
