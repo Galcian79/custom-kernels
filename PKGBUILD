@@ -5,7 +5,7 @@
 # Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 
-pkgbase=linux-custom-test      # Build kernel with a different name
+pkgbase=linux-custom-LTS      # Build kernel with a different name
 _tag=6.12.49
 pkgver=6.12.49
 pkgrel=1
