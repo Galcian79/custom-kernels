@@ -6,8 +6,8 @@
 
 
 pkgbase=linux-custom-test      # Build kernel with a different name
-_tag=6.12.38
-pkgver=6.12.38
+_tag=6.12.49
+pkgver=6.12.49
 pkgrel=1
 pkgdesc="Linux custom LTS"
 arch=(x86_64)
@@ -38,7 +38,7 @@ options=(
 )
 _srcname=linux
 source=(
-  "$_srcname::git+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git#tag=$_tag"
+  "$_srcname::git+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git#tag=v$_tag"
   config         # the main kernel config file
   modprobed.db   # a well populated database of external modules
   0006.patch     # ACS override for iommu patch
@@ -52,8 +52,9 @@ validpgpkeys=(
   647F28654894E3BD457199BE38DBBDC86092693E  # Greg Kroah-Hartman
   83BC8889351B5DEBBB68416EB8AC08600F108CDF  # Jan Alexander Steffens (heftig)
 )
-sha256sums=('17dd9695fcd3569f1ce9980df1647cc18e2c4a97b7c4ad8454541b6c1811015f'
-            '50cafbdd5b1aa8b3497034fe351f02e1891d0a33274eadc8afd0c784ccc5a2a3'
+sha256sums=('602737853c456e7ea7fd349eae6dc576925d0b61c4fc6d7f8ca6cbb21368aaf5'
+            'edb7a6a223ab1e9d2a27438fa16ee4be3bff1ea13bdba4f29f7c41e14e0eca37'
+            '6435ed710efd8e06d06e7473f7ad0f5a2ca79b33df473af43b0f7f191caa0ee8'
             '122139befc3da25b00b5119e9a2fc59b266ed0de53f36912e9e60f3287c479d6'
             '9df628fd530950e37d31da854cb314d536f33c83935adf5c47e71266a55f7004'
             '29a48e055f35358113d245cc370b85bc8bb2d697f7474e2536e137663038a1a9'
